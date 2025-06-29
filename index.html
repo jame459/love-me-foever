@@ -9,27 +9,44 @@
         color: #920356;
         background: url(/img/WhatsApp\ Image\ 2025-05-30\ at\ 23.08.00.jpeg);
         text-align: center;
-
-        
+        background-repeat:no-repeat;
+        background-size: cover ;
+        background-position: center ;
     }
+       .fas{
+        display: flex;
+        justify-content: center;
+         text-shadow: 
+                0 0 5px rgb(224, 231, 231),
+                0 0 10px rgb(182, 187, 187),
+                0 0 20px rgb(209, 222, 222),
+                0 0 40px rgb(209, 223, 223),
+                0 0 80px rgb(240, 250, 250)
+        
+       } 
+    
     .sound{
         padding: 10px 20px;
         background-color: black;
-        gap: 16px;
+     
+         
        
     }
     .dass{
-        background-color: rgb(230, 230, 237); /* สีพื้นหลังของปุ่มเป็นสีน้ำเงิน */
-            color: yellow; /* สีตัวอักษรเป็นสีเหลือง */
+        background-color: rgb(13, 13, 243); /* สีพื้นหลังของปุ่มเป็นสีน้ำเงิน */
+            color: rgb(227, 229, 227); /* สีตัวอักษรเป็นสีเหลือง */
             padding: 10px 20px; /* ขนาดภายในของปุ่ม */
             border: none; /* ลบขอบปุ่ม */
             border-radius: 5px; /* ทำให้มุมปุ่มโค้ง */
-            font-size: 16px; /* ขนาดตัวอักษร */
-            cursor: pointer; /* เปลี่ยนเคอร์เซอร์เมื่อชี้ที่ปุ่ม */
+            font-size: 20px; /* ขนาดตัวอักษร */
+            text-shadow: 
+                0 0 5px rgb(224, 231, 231),
+                0 0 10px rgb(182, 187, 187),
+                0 0 20px rgb(209, 222, 222),
+                0 0 40px rgb(209, 223, 223),
+                0 0 80px rgb(240, 250, 250)
         }
-        .custom-button:hover {
-            background-color: darkblue; /* เปลี่ยนสีพื้นหลังเมื่อชี้เมาส์ */
-        }
+        
     
   </style>
 
@@ -60,7 +77,7 @@
 <audio class="blop" style="display: none">
   <source src="https://www.freesound.org/data/previews/265/265115_4373976-lq.mp3" type="audio/ogg">
 </audio>
-<h1><div class="sound">ANNA!</div></h1>
+<div class="fas"><h1><div class="sound">ANNA!</div></h1></div>
 <button class="dass"> <a href="/img/Screenshot 2025-06-30 010857.png">ກະລູນາກົດ</a></button>
 </button>
 <!-- partial -->
